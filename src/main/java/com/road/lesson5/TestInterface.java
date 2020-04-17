@@ -8,6 +8,7 @@ public class TestInterface {
 		ComparableCircle c2 = new ComparableCircle();
 		c2.setRadius(2);
 		
+		
 		System.out.println(c1.compareTo(c2));
 		System.out.println(c2.compareTo(c1));
 	}
